@@ -4,13 +4,13 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'pip3 install requirements.txt'
+                sh 'pip3 install hms/requirements.txt'
                 sh 'echo Building'
             }
         }
         stage('Test') {
             steps {
-                sh 'python3 hms/hms/manage.py test'
+                sh 'python3 hms/manage.py test'
                 sh 'echo Testing by philip'
             }
         }
