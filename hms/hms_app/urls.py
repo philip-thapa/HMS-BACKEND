@@ -12,7 +12,7 @@ urlpatterns = [
     # AUTHENTICATION
     path('register/', CustomUserCreateAV.as_view(), name="register_user_name"),
     path('login/', signin, name='signin'),
-    path('logout/<int:id>/', signout, name='signup'),
+    path('logout/<int:id>/', signout, name='signout'),
 
     # ROOM CATE
     path('roomcate/', RoomCategoryListAV.as_view(), name="room_category_list_name"),
