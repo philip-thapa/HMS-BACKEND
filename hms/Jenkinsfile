@@ -10,7 +10,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                sh 'python3 hms/manage.py test'
+                sh 'python3 hms/manage.py test hms/'
                 sh 'echo Testing by philip'
             }
         }
