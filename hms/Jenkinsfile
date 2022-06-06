@@ -6,6 +6,7 @@ pipeline {
             steps {
                 dir("hms"){
                     echo pwd()
+                    echo "Something happend......."
                     sh 'sh project-backend-setup.sh'    
                 }
             }
