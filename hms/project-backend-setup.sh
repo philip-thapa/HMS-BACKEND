@@ -21,4 +21,4 @@ python3.6 -m venv venv/venv-medplus
 #source venv/venv-medplus/bin/activate
 venv/venv-medplus/bin/pip install wheel
 pwd
-venv/venv-medplus/bin/pip install -r /venv/venv-medplus/bin/requirements.txt
+venv/venv-medplus/bin/pip install -r var/lib/jenkins/venv/venv-medplus/bin/requirements.txt
