@@ -7,7 +7,7 @@ pipeline {
                 dir("hms"){
                     echo pwd()
                     echo "Something happend......."
-                    sh 'project-backend-setup.sh'    
+                    sh "sh project-backend-setup.sh" 
                 }
             }
         }
