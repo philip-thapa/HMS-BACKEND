@@ -20,4 +20,5 @@ pwd
 python3.6 -m venv venv/venv-medplus
 #source venv/venv-medplus/bin/activate
 venv/venv-medplus/bin/pip install wheel
+pwd
 venv/venv-medplus/bin/pip install -r ../requirements.txt
