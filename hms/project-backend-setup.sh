@@ -15,7 +15,7 @@ sudo apt-get install gcc libpq-dev -y
 sudo apt-get install python3-dev python3-pip python3-venv python3-wheel -y
 sudo apt-get install -y locales locales-all
 cd
-mkdir venv
+# mkdir venv
 pwd
 python3.6 -m venv venv/venv-medplus
 #source venv/venv-medplus/bin/activate
