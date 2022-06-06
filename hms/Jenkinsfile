@@ -4,7 +4,10 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'sh project-backend-setup.sh'
+                dir("hms"){
+                    echo pwd()
+                    sh 'sh project-backend-setup.sh'    
+                }
             }
         }
         stage('Test') {
