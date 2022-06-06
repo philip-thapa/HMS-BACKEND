@@ -4,8 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'pip3 install -r hms/requirements.txt'
-                sh 'echo Building'
+                sh 'sh project-backend-setup.sh'
             }
         }
         stage('Test') {
