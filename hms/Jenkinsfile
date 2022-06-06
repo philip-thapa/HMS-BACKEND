@@ -4,10 +4,10 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                dir("hms"){
+                dir("/hms"){
                     echo pwd()
                     echo "Something happend......."
-                    sh "sh project-backend-setup.sh" 
+                    sh 'sh project-backend-setup.sh'
                 }
             }
         }
